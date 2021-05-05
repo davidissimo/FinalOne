@@ -6,12 +6,40 @@
 <title> {% block title %}{% endblock title %}</title>
 
         <link rel="stylesheet" href="/static/css/style.css">
+
+
+
+
     </head>
 
 <body>
+
+<header>
+
+    <img width="50px" src="https://www.pinclipart.com/picdir/big/344-3441355_funny-logo-png-clipart-best-twitter-icon-transparent.png">
+    <p>Mypage</p>    
+    
+</header>
+
+<nav>
+    <ul> <a href="/index">Home</a> </ul>
+    <ul> <a href="/about">About</a> </ul>
+</nav>
+
+
+
  <h1>MY PAGE</h1>
 
      {% block content %}
     {% endblock content %}
+
+
+
+<footer>
+    <hr>
+    <p>Do not hesitate to call me, any time on 112</p>
+</footer>
+
+
 </body>
 </html>

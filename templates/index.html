@@ -4,9 +4,19 @@
 {% block title %} Index page{% endblock title %}
 
 {% block content %}
-    <p>Hello, index.html here!</p>
-    <p>{{some_text}}</p>
-    <p>Current year: {{current_year}}</p>
+ <div>
+ <p>Hello, index.html here!</p>
+
+ </div>
+
+
+
+{% if logedin %}
+     <p>Uporabnik je prijavljen</p>
+{% else %}
+     <p>Uporabnik nije prijavljen</p>
+{% endif %}
+
 
 {% endblock content %}
 

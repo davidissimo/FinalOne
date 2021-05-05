@@ -1,3 +1,22 @@
 body {
-    background-color: lightblue;
+    background-color: lightred;
+    margin: 10px
+}
+
+
+header, footer {
+    background-color: yellow;
+}
+
+nav {
+    background-color: green;
+
+}
+
+
+footer {
+   height: 300px;
+
+
+
 }
